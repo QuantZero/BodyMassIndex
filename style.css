@@ -1,0 +1,60 @@
+body {
+    background-image: url(yl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+    margin-top: 15%;
+}
+
+form {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+input {
+    width: 15%;
+    font-size: 1.5rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.button {
+    width: 20%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 3px solid rgb(255, 238, 0);
+    background: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: rgb(255, 238, 0);
+}
+
+#result {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    size: 2rem;
+    width: 51%;
+    margin: 1rem auto;
+}
